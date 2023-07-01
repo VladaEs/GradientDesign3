@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GradientDesign3/static/css/main.73abc661.css",
+    "main.js": "/GradientDesign3/static/js/main.17899993.js",
+    "static/js/787.a0cd520f.chunk.js": "/GradientDesign3/static/js/787.a0cd520f.chunk.js",
+    "static/media/MainImage3.jpg": "/GradientDesign3/static/media/MainImage3.b31e3181f263b510f97f.jpg",
+    "index.html": "/GradientDesign3/index.html",
+    "main.73abc661.css.map": "/GradientDesign3/static/css/main.73abc661.css.map",
+    "main.17899993.js.map": "/GradientDesign3/static/js/main.17899993.js.map",
+    "787.a0cd520f.chunk.js.map": "/GradientDesign3/static/js/787.a0cd520f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73abc661.css",
+    "static/js/main.17899993.js"
+  ]
+}
