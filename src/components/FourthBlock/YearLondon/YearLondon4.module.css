@@ -1,0 +1,12 @@
+.YearLondon{
+    position: relative;
+    display: block;
+    
+    
+    
+    background-image: var(--gradientColor);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}

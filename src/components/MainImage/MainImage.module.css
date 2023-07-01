@@ -1,0 +1,15 @@
+.MainImage{
+    position: relative;
+    display: block;
+    width: 120%;
+    
+    transform: rotate(180deg);
+    min-width: 924px;
+    z-index: 1;
+    
+}
+.wrapperMainImage{
+    position: relative;
+    display: inline-block;
+    height: fit-content;
+}

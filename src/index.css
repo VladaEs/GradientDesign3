@@ -1,0 +1,47 @@
+:root{
+	--gradientColor:linear-gradient(270deg, rgba(207,215,226,1) 0%, rgba(202,122,210,1) 50%, rgba(145,106,197,1) 100%);
+	--font:'Unbounded';
+}
+
+#root{
+	width: 100%;
+	height: 100%;
+}
+body{
+	overflow: hidden;
+	background-color: #111111;
+	height: 100%;
+	width: 100%;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+h1, h2, h3, h4, h5, h6, p,span, label {
+    font-size: inherit;
+	font-weight: inherit;
+}
+/* scrollBar */
+body::-webkit-scrollbar {
+    
+    background-color: rgb(136, 131, 131);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(46,54,69);
+}
+
+html{
+	overflow-x: hidden;
+	scrollbar-color: rgb(136, 131, 131) rgb(46,54,69)  ;
+	scrollbar-width: thin ;
+}
+
+  
+  

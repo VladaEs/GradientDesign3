@@ -1,0 +1,38 @@
+.MainImage2{
+    margin-top: 15%;
+    position: relative;
+    display: block;
+    background-image: url('../../../../public/images/MainImage3.jpg') ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+}
+
+.TitleMargin{
+    margin-top: 30%;
+    position: relative;
+    
+}
+.InfoBlockWrapper{
+    position: relative;
+    display: block;
+    width: 25%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 924px){
+    .InfoBlockWrapper{
+        position: relative;
+        display: block;
+        width: 75%;
+        float: right;
+        margin-top: 5%;
+        }
+    .MainImage2{
+        height: 60vh;
+    }
+}

@@ -1,0 +1,42 @@
+.HeaderBurger{
+    z-index: 2;
+    width:100%;
+    position: fixed;
+    height: 50px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 30;
+    
+}
+.burgerBtn{
+    margin-right: 5%;
+    cursor:pointer;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.burgerBtn span{
+    position: absolute;
+    top: 15px;
+    width: 30px;
+    background-color: #fff;
+    height: 2px;
+}
+.burgerBtn:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    width: 30px;
+    background-color: #fff;
+    height: 2px;
+}
+.burgerBtn:after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    background-color: #fff;
+    height: 2px;
+}

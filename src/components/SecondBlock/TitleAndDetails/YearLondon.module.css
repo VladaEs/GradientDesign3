@@ -1,0 +1,20 @@
+.YearLondon{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-left:5%;
+    margin-top:-5%;
+    color:white;
+    font-family: 'Unbounded';
+    font-weight: 300;
+    font-size:clamp(10px, 2vw, 15px);
+    background-image: linear-gradient(270deg, rgba(207,215,226,1) 0%, rgba(202,122,210,1) 50%, rgba(145,106,197,1) 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and ( max-width:1100px) {
+    .YearLondon{
+        display: none;
+    }   
+}

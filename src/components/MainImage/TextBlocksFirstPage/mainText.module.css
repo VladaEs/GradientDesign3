@@ -1,0 +1,19 @@
+.MainText{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    background-image: var(--gradientColor);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Unbounded';
+    font-weight: 300;
+    font-size:clamp(30px, 5vw, 60px) ;
+    margin-top:min(-300px, -40%) ;
+    margin-left: 5%;
+}
+@media (max-width: 768px) {
+    .MainText{
+        margin-top:min(-450px, -50%) ;
+    }
+}

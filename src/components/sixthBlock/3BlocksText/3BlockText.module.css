@@ -1,0 +1,20 @@
+.gridDisplay{
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+@media only screen and (max-width: 924px){
+    .gridDisplay{
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 150px;
+    }
+    .YearLondon{
+        display: none;
+    }
+}
+

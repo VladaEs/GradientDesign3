@@ -1,0 +1,58 @@
+.TableContainer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.WholeTable{
+    color:white;
+    position: relative;
+    display: block;
+    border:1px solid #fff;
+    border-collapse: collapse;
+    width: 58%;
+    
+    margin-right: 5%;
+    margin-top:5%;
+    font-family: var(--font);
+    font-weight: 100;
+}
+.WholeTable tr:first-child{
+    font-size: clamp(15px,2vw,25px);
+    font-weight: 300;
+}
+.WholeTable tr ,td ,th{
+    border:1px solid #fff;
+}
+.WholeTable td{
+    padding: 15px;
+    font-size: clamp(10px,2vw,20px);
+}
+.WholeTable td span{
+    
+    position: relative;
+    background-image: var(--gradientColor);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: clamp(10px, 3vw, 30px);
+    font-weight: 300;
+    display: block;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 924px){
+    .WholeTable{
+        color:white;
+        position: relative;
+        display: block;
+        border:1px solid #fff;
+        border-collapse: collapse;
+        width: 100%;
+        float: left;
+        
+        margin-top:5%;
+        font-family: var(--font);
+        font-weight: 100;
+    }
+}

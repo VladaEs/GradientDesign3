@@ -1,0 +1,49 @@
+.Menu{
+    position: fixed;
+    width: 100%;
+    height: 101%;
+    top:49px;
+    right: 0;
+    z-index: 25;
+    transform: translateX(100%);
+    transition: .3s all;
+}
+.Menu.active{
+    transform: translateX(0);
+}
+.MenuContent{
+    font-family: 'Unbounded';
+    font-weight: 200;
+    margin-top: -50px;
+    padding-top:50px ;
+    width: 100%;
+    height: 100%;
+    background-color: #484848;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.MenuHeader{
+    font-size: 1.5rem;
+    color:white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.LogoImage{
+    width: 10%;
+}
+.ElementsMenu li{
+    cursor: pointer;
+    margin-bottom: 10px;
+    color:white;
+    position: relative;
+    display: block;
+    
+}
+
+.ElementsMenu li:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}

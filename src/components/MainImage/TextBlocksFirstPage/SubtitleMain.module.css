@@ -1,0 +1,20 @@
+.SubtitleWrapper{
+    z-index: 2;
+    display: flex;
+    width: fit-content;
+    position: relative;
+    background-image:  var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: clamp(10px, 2vw, 20px);
+    font-weight: 100;
+    margin-left: min(450px, 35%) ;
+    margin-top: clamp(-50px,-5.5%, -10px);
+}
+@media (max-width: 768px) {
+    .SubtitleWrapper{
+        margin-top:2%;
+        margin-left: 5%;
+        font-size: clamp(15px, 2vw, 30px);
+    }
+}

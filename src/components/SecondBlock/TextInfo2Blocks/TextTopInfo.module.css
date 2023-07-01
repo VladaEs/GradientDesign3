@@ -1,0 +1,15 @@
+
+
+.TextTopInfo{
+    color:white;
+    font-family: 'Unbounded';
+    font-weight: 100;
+    font-size: 12px;
+    position: relative;
+    display: block;
+    width: 35%;
+    min-width: 250px;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}

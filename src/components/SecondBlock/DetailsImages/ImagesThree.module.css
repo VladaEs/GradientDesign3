@@ -1,0 +1,24 @@
+.ImagesThree{
+    
+    color:white;
+    display: inline;
+    vertical-align: top;
+    margin-left: 5%;
+}
+.ImagesThree img{
+    display: inline;
+    position: relative;
+    width: 3%;
+    height: auto;
+}
+.ImagesThree img:nth-child(1){
+    rotate: 15deg;
+}
+.ImagesThree img:nth-child(3){
+    rotate: 15deg;
+}
+@media (max-width: 768px) {
+    .ImagesThree {
+        display: none;
+    }
+}

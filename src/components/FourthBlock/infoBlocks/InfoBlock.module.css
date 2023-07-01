@@ -1,0 +1,12 @@
+.InfoBlock{
+    position: relative;
+    display: block;
+    font-family: var(--font);
+    font-weight: 200;
+    font-size: 13px;
+    max-height: 300px;
+    text-overflow: ellipsis;
+    overflow-y:auto;
+    color:#fff;
+}
+

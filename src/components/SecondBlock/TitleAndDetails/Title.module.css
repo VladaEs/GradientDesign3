@@ -1,0 +1,54 @@
+.TitleWrapper{
+    display: inline-block;
+    position: relative;
+    background-image: linear-gradient(90deg, rgba(207,215,226,1) 0%, rgba(202,122,210,1) 50%, rgba(145,106,197,1) 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Unbounded';
+    font-weight: 300;
+    font-size:clamp(25px, 5vw, 60px) ;
+    margin-left: 5%;
+}
+.TitleWrapper span{
+    background-image: linear-gradient(90deg, rgba(207,215,226,1) 0%, rgba(202,122,210,1) 50%, rgba(145,106,197,1) 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Unbounded';
+    display: inline;
+    position: relative;
+    text-underline-offset: 20px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(202,122,210,1);
+    text-decoration-style: wavy;
+}
+.TitleWrapper label{
+     background-image: linear-gradient(90deg, rgba(207,215,226,1) 0%, rgba(202,122,210,1) 50%, rgba(145,106,197,1) 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Unbounded';
+    position: relative;
+    display: inline;
+    text-underline-offset: 20px;
+    text-decoration-line: overline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(202,122,210,1);
+    text-decoration-style: wavy;
+}
+@media (max-width: 768px) {
+    .TitleWrapper label{
+        text-decoration-line: none;
+    }
+    .TitleWrapper span{
+        text-decoration-line: none;
+    }
+}
+
+
+
+   
+
+  
